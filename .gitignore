@@ -1,0 +1,19 @@
+# Projeto Receitas — .gitignore
+
+# Database (gerado, não versionar)
+db/receitas.db
+db/batch_*.json
+db/re_extracted.json
+db/corrected_recipes.json
+
+# Assets grandes (142 MB de imagens)
+assets/*.jpeg
+assets/*.png
+
+# PDF original
+receitas_completo.pdf
+
+# Cache e arquivos temporários
+export/
+__pycache__/
+*.pyc
